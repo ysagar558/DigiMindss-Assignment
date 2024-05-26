@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.name {
+    text-align: center;
+}
+
+.contact {
+    position: absolute;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    margin-right: 5px;
+    height: 25px;
+    width: 30px;
+}
+
+#about {
+    position: absolute;
+    margin-left: 500px;
+
+}
+
+#work {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+#skills {
+    position: absolute;
+    margin-top: 180px;
+}
+
+#education {
+    position: absolute;
+    margin-top: 300px;
+}
+
+div.vertical-line {
+    width: 1px;
+    background-color: silver;
+    height: 100%;
+    margin-left: 400px;
+    border: 2px ridge silver;
+    border-radius: 2px;
+}
